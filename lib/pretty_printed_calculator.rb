@@ -7,4 +7,8 @@ class PrettyPrintedCalculator
   def add(a,b)
     @printer.pretty_print(@calculator.add(a,b))
   end 
+  
+  def subtract(a,b)
+    @printer.pretty_print(@calculator.subtract(a,b))
+  end
 end
